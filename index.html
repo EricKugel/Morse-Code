@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Learn Morse Code</title>
+        <title>Morse Code Player</title>
         <link rel = "stylesheet" href = "styles/style.css"/>
         <script src = "scripts/morse.js"></script>
         <script src = "scripts/main.js"></script>
     </head>
-    <body onload = "start()">
-        <div id = "blinker">
-            
+    <body>
+        <div id = "container">
+            <div id = "blinker"></div>
+            <input id = "input" type = "text"></input><br/><br/>
+            <button onclick = "unPause()">Start</button>
+            <button onclick = "pause()">Pause</button>
         </div>
     </body>
 </html>

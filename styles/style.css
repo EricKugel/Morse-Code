@@ -1,5 +1,20 @@
+body {
+    background-color: #999999;
+}
+
+#container {
+    width: min-content;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+
 #blinker {
     width: 100px;
     height: 100px;
     margin: auto;
+    margin-bottom: 100px;
+    background-color: black;
 }

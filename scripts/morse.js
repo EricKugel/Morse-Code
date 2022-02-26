@@ -50,8 +50,8 @@ const MORSE_CODE = {
 const LENGTHS = {
     ".": 1,
     "-": 3,
-    " ": 3,
-    "/": 7
+    " ": 1,
+    "/": 5
 }
 
 function decode(morseString) {
