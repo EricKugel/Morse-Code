@@ -18,3 +18,9 @@ body {
     margin-bottom: 100px;
     background-color: black;
 }
+
+#copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
